@@ -16,7 +16,6 @@ var disqus_blogger_current_url = &quot;<data:blog.canonicalUrl/>&quot;;
         s.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/count.js&#39;;
         (document.getElementsByTagName(&#39;HEAD&#39;)[0] || document.getElementsByTagName(&#39;BODY&#39;)[0]).appendChild(s);
     }());
-//<![CDATA[
 (function() {
   var bloggerjs = document.createElement('script');
   bloggerjs.type = 'text/javascript';
@@ -24,4 +23,3 @@ var disqus_blogger_current_url = &quot;<data:blog.canonicalUrl/>&quot;;
   bloggerjs.src = '//'+disqus_shortname+'.disqus.com/blogger_item.js';
   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(bloggerjs);
 })();
-//]]>
